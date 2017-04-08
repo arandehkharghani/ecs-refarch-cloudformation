@@ -22,7 +22,7 @@ COPY . /usr/src/app
 
 # Our application runs on port 8001
 # so allow hosts to bind to that port
-EXPOSE 8002
+EXPOSE 4200
 
 # Serve the app
 CMD ["npm", "start"]
